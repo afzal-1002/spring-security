@@ -11,7 +11,6 @@ public interface UsersService {
     public Users addNewUser(Users user);
     public Users findUsersByUserName(String userName);
     public List<Users> getAllUsers();
-
     public Users verifyUsers(Users users);
 
 }
