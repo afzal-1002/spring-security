@@ -8,8 +8,10 @@ import java.util.List;
 @Service
 public interface UsersService {
 
-    public Users addNewService(Users user);
+    public Users addNewUser(Users user);
     public Users findUsersByUserName(String userName);
-    public List<Users> getAllUsers(String userName);
+    public List<Users> getAllUsers();
+
+    public Users verifyUsers(Users users);
 
 }
